@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ansari Group</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+		<!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" >  -->
+   		<link rel="stylesheet" href="assets/css/font-awesome.css" >
+   		<link rel="stylesheet" href="assets/css/font/flaticon.css" >
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+		<script src="data/index.js"></script>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper" class="fade-in">
+		
+			<!-- Intro -->
+			<div id="intro">
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Ansari-Group</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">Research</a></li>					
+					<li><a href="publication.html">Publication</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><a href="resource.html">Resource</a></li>
+					<li><a href="opportunity.html">Opportunity</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<section class="post">
+					<h2>Cross-disciplinary science</h2>	
+					<p id="general_focus"></p>
+					<h3><i class="fa fa-book"></i> Infectious disease aetiology</h3>
+					<p id="research_1"></p>
+					<h3><i class="fa fa-book"></i> Host genomic analysis</h3>
+					<p id="research_2"></p>
+					<h3><i class="fa fa-book"></i> Virus genomic analysis</h3>
+					<p id="research_3"></p>
+					<h3><i class="fa fa-book"></i> Virus-host interaction analysis</h3>
+					<p id="research_4"></p>
+					<h3><i class="fa fa-book"></i> Biology software</h3>
+					<p id="research_5"></p>
+					<script>     									       
+  	                    	document.getElementById("general_focus").innerHTML = index.general_focus;
+  	                    	document.getElementById("research_1").innerHTML = index.research_1;
+  	                    	document.getElementById("research_2").innerHTML = index.research_2;
+  	                    	document.getElementById("research_3").innerHTML = index.research_3;
+  	                    	document.getElementById("research_4").innerHTML = index.research_4;
+  	                    	document.getElementById("research_5").innerHTML = index.research_5;
+  	                </script>
+				</section>
+				
+			</div>				
+			
+			<!-- Copyright -->
+			<div class="copyright align-center">
+                   <strong> &copy; 2022-<b id="CurrentYear"></b> | Designed and Maintained by Ansari Group</strong>
+            </div>
+            <script>
+    			document.getElementById('CurrentYear').innerHTML = new Date().getFullYear();
+    		</script>
+		</div>
+		
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+			
+	</body>
+</html>
